@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sayari-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app/risk_dashboard.py
+    envVars:
+      - key: SAYARI_CLIENT_ID
+        fromEnvVar: SAYARI_CLIENT_ID
+      - key: SAYARI_CLIENT_SECRET
+        fromEnvVar: SAYARI_CLIENT_SECRET
+      - key: GOOGLE_MAPS_API_KEY
+        fromEnvVar: GOOGLE_MAPS_API_KEY

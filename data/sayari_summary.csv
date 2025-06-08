@@ -1,0 +1,47 @@
+Name,PSA Count,Sanctioned,Politically Exposed Person,Related Entities Count,Risk Score,Risk Level,Country,Latitude,Longitude
+Russian Direct Investment Fund,0,True,False,369,11.0,Low,RUS,55.7471321,37.5391449
+Sberbank,2,True,False,374,10.0,Low,RUS,55.6995643,37.580182
+VTB Bank,0,True,False,12521,10.0,Low,RUS,59.93384099999999,30.31193499999999
+Rostec,0,False,False,0,1.0,Low,RUS,55.761826,37.574839
+Rosneft,0,True,False,23537,23.0,High,RUS,55.747553,37.620612
+Gazprom,2,True,False,216,20.5,High,RUS,55.6603845,37.5588141
+National Iranian Oil Company,9,True,False,181,19.5,High,IRN,35.7218583,51.3346954
+Huawei Technologies Co. Ltd.,58,True,False,90912,14.5,Medium,CHN,55.770687,37.422711
+ZTE Corporation,120,False,False,66879,12.0,Medium,CHN,22.5333199,113.93041
+Hangzhou Hikvision Digital Technology Co. Ltd.,0,True,False,1342,15.0,Medium,CHN,30.2655499,120.1536
+Syrian Arab Airlines,4,True,False,91,14.0,Medium,SYR,33.5132192,36.2768193
+Korea Mining Development Trading Corporation,1,True,False,50,17.0,Medium,PRK,39.0130307,125.7461477
+Cubametales,2,False,False,0,3.5,Low,CUB,21.521757,-77.781167
+Myanmar Economic Holdings Limited,2,True,False,118,14.5,Medium,MMR,16.7635259,96.1871735
+Belaruskali OAO,2,True,False,428,13.0,Medium,BLR,52.7827724,27.5433245
+State Development Bank VEB.RF,0,True,False,1800,19.5,High,RUS,55.7721885,37.64512380000001
+Promsvyazbank,0,True,False,1285,17.0,Medium,RUS,55.736427,37.709476
+Alfa-Bank,0,False,False,258,4.5,Low,RUS,55.7747468,37.6498785
+Belorusskaya Kaliynaya Companya,0,False,False,0,1.5,Low,BLR,53.9169274,27.5497466
+Belneftegaz,1,True,False,4,12.0,Medium,BLR,53.9006011,27.558972
+Bank Rossiya,1,True,False,1103,21.5,High,RUS,59.9485699,30.391326
+Novikombank,9,True,False,1591,19.5,High,RUS,55.7320876,37.611728
+Sovcombank,0,True,False,2638,15.0,Medium,RUS,57.773785,40.918024
+Bank Otkritie,1,True,False,831,16.5,Medium,RUS,55.7223856,37.6496105
+Transneft,0,True,False,514,19.5,High,RUS,55.7484651,37.5418217
+Russian Railways,6,True,False,110997,20.0,High,RUS,55.7692837,37.6522504
+United Aircraft Corporation,0,True,False,3879,24.5,High,RUS,55.340396,38.2917651
+United Shipbuilding Corporation,0,True,False,1406,16.5,Medium,RUS,59.917352,30.3359556
+Kamaz,0,True,False,21158,24.0,High,RUS,55.7475379,52.4462483
+Sevmash,0,False,False,155,22.0,High,RUS,64.5760517,39.8407993
+Almaz-Antey,0,False,False,1235,22.0,High,RUS,55.7127875,37.4306328
+Uralvagonzavod,3,True,False,2694,22.5,High,RUS,57.9137814,60.092085
+Kalashnikov Concern,0,True,False,111,26.5,High,RUS,56.8436503,53.18636430000001
+NPO High Precision Systems,5,True,False,732,20.0,High,RUS,55.74891299999999,37.602863
+Tactical Missiles Corporation JSC,0,True,False,1858,20.5,High,RUS,55.9126669,37.8525606
+NPK Tekhmash OAO,0,True,False,668,21.5,High,RUS,55.8408673,37.4824384
+Molot-Oruzhie,1,True,False,87,13.5,Medium,RUS,56.2310656,51.0715912
+Rustec,0,False,False,387,5.0,Low,RUS,55.8393243,37.3859875
+Rosoboronexport,0,True,False,21194,24.5,High,RUS,55.340396,38.2917651
+Power Machines,0,True,False,2713,16.0,Medium,RUS,59.961996,30.3814978
+Sukhoi Company,0,True,False,4140,14.5,Medium,RUS,55.779289,37.54545
+Irkut Corporation,1,True,False,10561,19.5,High,RUS,55.80371230000001,37.5225522
+MiG Corporation,0,True,False,2374,13.5,Medium,RUS,55.7570141,37.8265924
+Admiralty Shipyards,1,True,False,3697,22.0,High,RUS,59.9172224,30.2775806
+Zvezdochka Shipyard,0,True,False,2919,23.0,High,RUS,64.5903845,39.8170037
+Baltic Shipyard,4,True,False,670,18.0,High,RUS,59.9226291,30.2584672
