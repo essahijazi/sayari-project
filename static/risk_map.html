@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_326f89962fd8fe57ebead7198facaeaa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_326f89962fd8fe57ebead7198facaeaa" ></div>
+        
+    
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            #map {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+        
+</body>
+<script>
+    
+    
+            var map_326f89962fd8fe57ebead7198facaeaa = L.map(
+                "map_326f89962fd8fe57ebead7198facaeaa",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": [
+[
+-90,
+-180,
+],
+[
+90,
+180,
+],
+],
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "noWrap": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_326f89962fd8fe57ebead7198facaeaa);
+
+            
+
+        
+    
+            var tile_layer_9adea84982b23359e3a1647808411ae7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 2,
+  "maxZoom": 16,
+  "maxNativeZoom": 16,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9adea84982b23359e3a1647808411ae7.addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            map_326f89962fd8fe57ebead7198facaeaa.fitBounds(
+                [[80, -180], [-80, 180]],
+                {}
+            );
+        
+    
+            var circle_marker_e7f10ed237a38af0ddd796ee90a7e990 = L.circleMarker(
+                [55.7471321, 37.5391449],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_e7f10ed237a38af0ddd796ee90a7e990.bindTooltip(
+                `<div>
+                     Russian Direct Investment Fund<br>Risk Level: Low<br>Risk Score: 11.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4fcdd6f7ab8b73e7d7dbd3c4fadf5d0c = L.circleMarker(
+                [55.6995643, 37.580182],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_4fcdd6f7ab8b73e7d7dbd3c4fadf5d0c.bindTooltip(
+                `<div>
+                     Sberbank<br>Risk Level: Low<br>Risk Score: 10.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d783f4dc2d61f017f922ad8ced03584 = L.circleMarker(
+                [59.93384099999999, 30.31193499999999],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_6d783f4dc2d61f017f922ad8ced03584.bindTooltip(
+                `<div>
+                     VTB Bank<br>Risk Level: Low<br>Risk Score: 10.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5beaa758cee5a4084a559ec0ea3f6c82 = L.circleMarker(
+                [55.761826, 37.574839],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_5beaa758cee5a4084a559ec0ea3f6c82.bindTooltip(
+                `<div>
+                     Rostec<br>Risk Level: Low<br>Risk Score: 1.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e77069e9ce3624ddda8bb5b3f225648 = L.circleMarker(
+                [55.747553, 37.620612],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_1e77069e9ce3624ddda8bb5b3f225648.bindTooltip(
+                `<div>
+                     Rosneft<br>Risk Level: High<br>Risk Score: 23.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95685514d7b866cc18165b70de690211 = L.circleMarker(
+                [55.6603845, 37.5588141],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_95685514d7b866cc18165b70de690211.bindTooltip(
+                `<div>
+                     Gazprom<br>Risk Level: High<br>Risk Score: 20.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_99a2a83ac9cf0e732cea767518bb64a7 = L.circleMarker(
+                [35.7218583, 51.3346954],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_99a2a83ac9cf0e732cea767518bb64a7.bindTooltip(
+                `<div>
+                     National Iranian Oil Company<br>Risk Level: High<br>Risk Score: 19.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a0a338643428869cd557e237bd26125 = L.circleMarker(
+                [55.770687, 37.422711],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_6a0a338643428869cd557e237bd26125.bindTooltip(
+                `<div>
+                     Huawei Technologies Co. Ltd.<br>Risk Level: Medium<br>Risk Score: 14.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df3910556b5015ed8b5220d0498f4516 = L.circleMarker(
+                [22.5333199, 113.93041],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_df3910556b5015ed8b5220d0498f4516.bindTooltip(
+                `<div>
+                     ZTE Corporation<br>Risk Level: Medium<br>Risk Score: 12.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a862039bf1ef83a54b1af0e68f36fb01 = L.circleMarker(
+                [30.2655499, 120.1536],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_a862039bf1ef83a54b1af0e68f36fb01.bindTooltip(
+                `<div>
+                     Hangzhou Hikvision Digital Technology Co. Ltd.<br>Risk Level: Medium<br>Risk Score: 15.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5fb9b72324f0a88b875b50d945851d3f = L.circleMarker(
+                [33.5132192, 36.2768193],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_5fb9b72324f0a88b875b50d945851d3f.bindTooltip(
+                `<div>
+                     Syrian Arab Airlines<br>Risk Level: Medium<br>Risk Score: 14.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_362d51ec58f4b3e04819e7edc184016b = L.circleMarker(
+                [39.0130307, 125.7461477],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_362d51ec58f4b3e04819e7edc184016b.bindTooltip(
+                `<div>
+                     Korea Mining Development Trading Corporation<br>Risk Level: Medium<br>Risk Score: 17.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_247ddc006469176a91e53bd9bd43ddc1 = L.circleMarker(
+                [21.521757, -77.781167],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_247ddc006469176a91e53bd9bd43ddc1.bindTooltip(
+                `<div>
+                     Cubametales<br>Risk Level: Low<br>Risk Score: 3.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_342ca5d2b4caae26111892847c3373e6 = L.circleMarker(
+                [16.7635259, 96.1871735],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_342ca5d2b4caae26111892847c3373e6.bindTooltip(
+                `<div>
+                     Myanmar Economic Holdings Limited<br>Risk Level: Medium<br>Risk Score: 14.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b9a39fbaee08f67db005753937f126a8 = L.circleMarker(
+                [52.7827724, 27.5433245],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_b9a39fbaee08f67db005753937f126a8.bindTooltip(
+                `<div>
+                     Belaruskali OAO<br>Risk Level: Medium<br>Risk Score: 13.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33c5db95c9a6944404d158591189d992 = L.circleMarker(
+                [55.7721885, 37.64512380000001],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_33c5db95c9a6944404d158591189d992.bindTooltip(
+                `<div>
+                     State Development Bank VEB.RF<br>Risk Level: High<br>Risk Score: 19.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_694d072aa23ec4c7906e6eba6b7f99ae = L.circleMarker(
+                [55.736427, 37.709476],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_694d072aa23ec4c7906e6eba6b7f99ae.bindTooltip(
+                `<div>
+                     Promsvyazbank<br>Risk Level: Medium<br>Risk Score: 17.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3fa45c48fd34b484ae71c8ec4692723 = L.circleMarker(
+                [55.7747468, 37.6498785],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_d3fa45c48fd34b484ae71c8ec4692723.bindTooltip(
+                `<div>
+                     Alfa-Bank<br>Risk Level: Low<br>Risk Score: 4.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35d5a3e9ba55618ac51db29207d29183 = L.circleMarker(
+                [53.9169274, 27.5497466],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_35d5a3e9ba55618ac51db29207d29183.bindTooltip(
+                `<div>
+                     Belorusskaya Kaliynaya Companya<br>Risk Level: Low<br>Risk Score: 1.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e37bed35f2adc1432467e51e8857af5d = L.circleMarker(
+                [53.9006011, 27.558972],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_e37bed35f2adc1432467e51e8857af5d.bindTooltip(
+                `<div>
+                     Belneftegaz<br>Risk Level: Medium<br>Risk Score: 12.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbe6564d84510e82c0977f36e75c8d9f = L.circleMarker(
+                [59.9485699, 30.391326],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_bbe6564d84510e82c0977f36e75c8d9f.bindTooltip(
+                `<div>
+                     Bank Rossiya<br>Risk Level: High<br>Risk Score: 21.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2cf058153e34bfa5404e28e6d566cd0 = L.circleMarker(
+                [55.7320876, 37.611728],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_b2cf058153e34bfa5404e28e6d566cd0.bindTooltip(
+                `<div>
+                     Novikombank<br>Risk Level: High<br>Risk Score: 19.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ee6cecd24d16ea4c05d492047921212 = L.circleMarker(
+                [57.773785, 40.918024],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_2ee6cecd24d16ea4c05d492047921212.bindTooltip(
+                `<div>
+                     Sovcombank<br>Risk Level: Medium<br>Risk Score: 15.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_629fef9964f629c17573f2b9773016e8 = L.circleMarker(
+                [55.7223856, 37.6496105],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_629fef9964f629c17573f2b9773016e8.bindTooltip(
+                `<div>
+                     Bank Otkritie<br>Risk Level: Medium<br>Risk Score: 16.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d2bb18c5f11291659251f25674950c7 = L.circleMarker(
+                [55.7484651, 37.5418217],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_7d2bb18c5f11291659251f25674950c7.bindTooltip(
+                `<div>
+                     Transneft<br>Risk Level: High<br>Risk Score: 19.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5f2ebaaa9127ed6e60cdd0d84e7cc99 = L.circleMarker(
+                [55.7692837, 37.6522504],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_a5f2ebaaa9127ed6e60cdd0d84e7cc99.bindTooltip(
+                `<div>
+                     Russian Railways<br>Risk Level: High<br>Risk Score: 20.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5edee0e79d55d778ec17d2e385a25249 = L.circleMarker(
+                [55.340396, 38.2917651],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_5edee0e79d55d778ec17d2e385a25249.bindTooltip(
+                `<div>
+                     United Aircraft Corporation<br>Risk Level: High<br>Risk Score: 24.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1e638621eda95603ccafb5b171f6985 = L.circleMarker(
+                [59.917352, 30.3359556],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_e1e638621eda95603ccafb5b171f6985.bindTooltip(
+                `<div>
+                     United Shipbuilding Corporation<br>Risk Level: Medium<br>Risk Score: 16.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32c901c503a735150ac36adf9f23d61f = L.circleMarker(
+                [55.7475379, 52.4462483],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_32c901c503a735150ac36adf9f23d61f.bindTooltip(
+                `<div>
+                     Kamaz<br>Risk Level: High<br>Risk Score: 24.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_af83093e1d3dcc14fc884e01ccf1c9d8 = L.circleMarker(
+                [64.5760517, 39.8407993],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_af83093e1d3dcc14fc884e01ccf1c9d8.bindTooltip(
+                `<div>
+                     Sevmash<br>Risk Level: High<br>Risk Score: 22.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d00c5d28a171a4f255f28ff18ed89e2b = L.circleMarker(
+                [55.7127875, 37.4306328],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_d00c5d28a171a4f255f28ff18ed89e2b.bindTooltip(
+                `<div>
+                     Almaz-Antey<br>Risk Level: High<br>Risk Score: 22.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_384f49183d2a465b0569d59dd7be857d = L.circleMarker(
+                [57.9137814, 60.092085],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_384f49183d2a465b0569d59dd7be857d.bindTooltip(
+                `<div>
+                     Uralvagonzavod<br>Risk Level: High<br>Risk Score: 22.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_366a378166542ea688e98e57c2563a99 = L.circleMarker(
+                [56.8436503, 53.18636430000001],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_366a378166542ea688e98e57c2563a99.bindTooltip(
+                `<div>
+                     Kalashnikov Concern<br>Risk Level: High<br>Risk Score: 26.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45529a1a261325126bf209727ac6d39a = L.circleMarker(
+                [55.74891299999999, 37.602863],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_45529a1a261325126bf209727ac6d39a.bindTooltip(
+                `<div>
+                     NPO High Precision Systems<br>Risk Level: High<br>Risk Score: 20.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bae19415278607a86e96c1f2f7069bb2 = L.circleMarker(
+                [55.9126669, 37.8525606],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_bae19415278607a86e96c1f2f7069bb2.bindTooltip(
+                `<div>
+                     Tactical Missiles Corporation JSC<br>Risk Level: High<br>Risk Score: 20.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0021aca2bb15763970235e262325d82f = L.circleMarker(
+                [55.8408673, 37.4824384],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_0021aca2bb15763970235e262325d82f.bindTooltip(
+                `<div>
+                     NPK Tekhmash OAO<br>Risk Level: High<br>Risk Score: 21.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_505bf2a4aec2bd34e3baa558219ad4ff = L.circleMarker(
+                [56.2310656, 51.0715912],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_505bf2a4aec2bd34e3baa558219ad4ff.bindTooltip(
+                `<div>
+                     Molot-Oruzhie<br>Risk Level: Medium<br>Risk Score: 13.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1562b7aae3d7a66881b040f783101034 = L.circleMarker(
+                [55.8393243, 37.3859875],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_1562b7aae3d7a66881b040f783101034.bindTooltip(
+                `<div>
+                     Rustec<br>Risk Level: Low<br>Risk Score: 5.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e587733412275d537cfc0ccace487348 = L.circleMarker(
+                [55.340396, 38.2917651],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_e587733412275d537cfc0ccace487348.bindTooltip(
+                `<div>
+                     Rosoboronexport<br>Risk Level: High<br>Risk Score: 24.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9009840688e14bc530f7de5414b383d7 = L.circleMarker(
+                [59.961996, 30.3814978],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_9009840688e14bc530f7de5414b383d7.bindTooltip(
+                `<div>
+                     Power Machines<br>Risk Level: Medium<br>Risk Score: 16.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4eabcc157374ddf19526f9a3d885756b = L.circleMarker(
+                [55.779289, 37.54545],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_4eabcc157374ddf19526f9a3d885756b.bindTooltip(
+                `<div>
+                     Sukhoi Company<br>Risk Level: Medium<br>Risk Score: 14.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d106123a4e46dd3e74103a183df3a450 = L.circleMarker(
+                [55.80371230000001, 37.5225522],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_d106123a4e46dd3e74103a183df3a450.bindTooltip(
+                `<div>
+                     Irkut Corporation<br>Risk Level: High<br>Risk Score: 19.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19c60c0d48e9a2e04e6aaa6582eef307 = L.circleMarker(
+                [55.7570141, 37.8265924],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_19c60c0d48e9a2e04e6aaa6582eef307.bindTooltip(
+                `<div>
+                     MiG Corporation<br>Risk Level: Medium<br>Risk Score: 13.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23731b40c4afe01fa021b3d14acc8b4c = L.circleMarker(
+                [59.9172224, 30.2775806],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_23731b40c4afe01fa021b3d14acc8b4c.bindTooltip(
+                `<div>
+                     Admiralty Shipyards<br>Risk Level: High<br>Risk Score: 22.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef227b69dc1168e5c2cba11bc9ce6ca7 = L.circleMarker(
+                [64.5903845, 39.8170037],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_ef227b69dc1168e5c2cba11bc9ce6ca7.bindTooltip(
+                `<div>
+                     Zvezdochka Shipyard<br>Risk Level: High<br>Risk Score: 23.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf14bbba9ea93a0ccc2898e6a731775b = L.circleMarker(
+                [59.9226291, 30.2584672],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_326f89962fd8fe57ebead7198facaeaa);
+        
+    
+            circle_marker_cf14bbba9ea93a0ccc2898e6a731775b.bindTooltip(
+                `<div>
+                     Baltic Shipyard<br>Risk Level: High<br>Risk Score: 18.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
