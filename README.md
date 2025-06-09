@@ -17,7 +17,7 @@ Make sure you have the following installed:
 
 ### 🔑 Environment Variables
 
-You will need valid API credentials. Create a `.env` file in the root directory with the following keys:
+You will need valid API credentials. Create a `.env` file in the project root directory with the following keys:
 
 ```env
 SAYARI_CLIENT_ID=your_sayari_client_id
